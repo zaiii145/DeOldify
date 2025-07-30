@@ -1,6 +1,6 @@
 streamlit
 numpy==1.26.4
 opencv-contrib-python
-pillow
+Pillow
 colorgram.py
 protobuf<4,>=3.20
