@@ -5,9 +5,9 @@ import os
 from io import BytesIO
 from PIL import Image
 
-PROTOTXT = "For Colorisation/colorization_deploy_v2.prototxt"
-POINTS = "For Colorisation/pts_in_hull.npy"
-MODEL = "For Colorisation/colorization_release_v2.caffemodel"
+PROTOTXT = "COLOURIZATION/colorization_deploy_v2.prototxt"
+POINTS = "COLOURIZATION/pts_in_hull.npy"
+MODEL = "COLOURIZATION/colorization_release_v2.caffemodel"
 
 net = cv2.dnn.readNetFromCaffe(PROTOTXT, MODEL)
 pts = np.load(POINTS)
