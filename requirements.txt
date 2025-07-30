@@ -3,4 +3,6 @@ numpy==1.26.4
 opencv-python-headless
 pillow
 colorgram.py
-protobuf<4,>=3.20
+protobuf<4,>=3.20 
+opencv-python
+
